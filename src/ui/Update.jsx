@@ -4,6 +4,7 @@ import axios from 'axios';
 function Update({setShowUpdate, showUpdate}) {
     const [ name, setName ] = useState("");
     const [ price, setPrice ] = useState("");
+    
   return (
     <div className='flex flex-col gap-5   border text-white border-1 rounded-xl p-10'>
         <div className='text-2xl flex justify-center '>Enter Details</div>
